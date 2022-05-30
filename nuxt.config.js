@@ -2,6 +2,11 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'client',
+    script: [
+      {
+        src: "https://cdn.fedapay.com/checkout.js?v=1.1.7",
+      }
+    ],
     htmlAttrs: {
       lang: 'en',
     },
